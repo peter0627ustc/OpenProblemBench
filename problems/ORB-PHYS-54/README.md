@@ -24,9 +24,7 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
-Source-fidelity check: the candidate paraphrase is faithful to the primary sources. One refinement: the competing sum rules are not 'mutually inconsistent' as identities - all are exact consequences of the QCD energy-momentum tensor - rather they partition the mass differently and their individual terms carry different (and generally scheme-dependent) physical interpretations. The three LKM nodes were verified against arXiv:2109.11785 (Lorcé-Metz-Pasquini-Rodini review), Phys. Rev. D 102, 114042 (Metz-Pasquini-Rodini), and arXiv:2608.01002 (Yang); titles, author lists, and claims all match.
+One refinement: the competing sum rules are not 'mutually inconsistent' as identities - all are exact consequences of the QCD energy-momentum tensor - rather they partition the mass differently and their individual terms carry different (and generally scheme-dependent) physical interpretations. The sources include the Lorcé–Metz–Pasquini–Rodini review (arXiv:2109.11785), Metz–Pasquini–Rodini (Phys. Rev. D 102, 114042), and Yang (arXiv:2608.01002).
 
 Ji (1995, PRL 74, 1071 and PRD 52, 271) introduced the four-term rest-frame decomposition of the nucleon mass into sigma terms, quark kinetic-plus-potential energy, gluon energy, and a trace-anomaly term, with the energy terms tied to the measurable quark and gluon momentum fractions; this remains the reference point of the debate.
 
@@ -42,11 +40,11 @@ Lattice input: Yang et al. (2018, PRL 121, 212001) computed the EMT-based mass d
 
 Tanaka (2025, arXiv:2511.18310) evaluated the decompositions quantitatively at next-to-next-to-leading order in QCD, computed the renormalization-scale dependence of every component, and introduced yet another decomposition organized strictly by the traceless/trace separation of each gauge-invariant quark and gluon EMT part - evidence that the proliferation of decompositions and the scale-dependence question are still live.
 
-Yang (2026, arXiv:2608.01002, 2 August 2026) argued that the reducible-basis renormalization underlying the Hatta-Rajan-Tanaka anomaly split mixes the trace anomaly with regular operators and is ill-conceived: the anomaly is regulator-, scheme- and scale-independent as a whole and cannot be uniquely assigned to quark and gluon ultraviolet contributions; the same paper criticizes the trace-based decompositions as non-additive bookkeeping. A companion line by Ji and Yang (2026, NPB 1024, 117342) questions the pressure/shear-stress interpretation of EMT form factors, a parallel interpretational dispute over the same tensor. The operator-level contradiction (Hatta-Rajan-Tanaka's 'unambiguous' split versus Yang's 'cannot be uniquely assigned') stands unresolved in the literature as of this audit.
+Yang (2026, arXiv:2608.01002, 2 August 2026) argued that the reducible-basis renormalization underlying the Hatta-Rajan-Tanaka anomaly split mixes the trace anomaly with regular operators and is ill-conceived: the anomaly is regulator-, scheme- and scale-independent as a whole and cannot be uniquely assigned to quark and gluon ultraviolet contributions; the same paper criticizes the trace-based decompositions as non-additive bookkeeping. A companion line by Ji and Yang (2026, NPB 1024, 117342) questions the pressure/shear-stress interpretation of EMT form factors, a parallel interpretational dispute over the same tensor. The operator-level contradiction (Hatta-Rajan-Tanaka's 'unambiguous' split versus Yang's 'cannot be uniquely assigned') stands unresolved in the literature at the curation cutoff.
 
 Empirical discrimination remains indirect and model dependent: near-threshold J/psi photoproduction has been used to extract anomaly-related mass radii and trace-anomaly contributions (Wang, Evslin and Chen 2020; Wang and Bu 2024, PRC 110, 025206), with large model uncertainties; no observable has yet been established that cleanly discriminates between the competing decompositions.
 
-Coverage: this audit inspected the complete INSPIRE citation lists of the two anchor reviews (89 citing works of arXiv:2109.11785 and 100 citing works of PRD 102, 114042), INSPIRE title and author searches around 'nucleon/proton mass decomposition', 'trace anomaly', 'reducible basis', and 'quantum anomalous energy', the full text of arXiv:2608.01002 with its 76-item bibliography, and arXiv/Crossref metadata for every reference above. No published work resolves, refutes, or collapses the open core; the most recent contributions (2025-2026) actively contest it. Residual uncertainty: literature from the final weeks of August 2026 and non-indexed proceedings could not be covered.
+No published work resolves, refutes, or collapses the open core; the most recent contributions (2025-2026) actively contest it.
 
 ## Scientific Significance
 

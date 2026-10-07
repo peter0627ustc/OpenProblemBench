@@ -27,9 +27,7 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
-Source fidelity: the LKM record drawn from Alsetri–Shao (arXiv:2405.18576; published in Acta Arithmetica 218 (2025), 285–295, DOI 10.4064/aa240615-19-9) was checked against the arXiv page directly. It is accurate: the paper proves almost-all and density-restricted variants (relative density δ > 1/2 in every reduced residue class suffices for almost all even integers to lie in A+A, and 1/2 is sharp) and does not address the full conjecture. One attribution correction: the open problem is the classical Goldbach–Euler problem of 1742, not a question posed by that paper; the record's formulation is therefore aligned with the standard authoritative statement rather than attributed to the cited 2024 work. No conflation of adjacent results was found in the LKM paraphrase.
+Alsetri–Shao (arXiv:2405.18576; Acta Arithmetica 218 (2025), 285–295, DOI 10.4064/aa240615-19-9) discuss this problem. The paper proves almost-all and density-restricted variants (relative density δ > 1/2 in every reduced residue class suffices for almost all even integers to lie in A+A, and 1/2 is sharp) and does not address the full conjecture. One attribution correction: the open problem is the classical Goldbach–Euler problem of 1742, not a question posed by that paper; the record's formulation is therefore aligned with the standard authoritative statement rather than attributed to the cited 2024 work.
 
 Helfgott (arXiv:1305.2897, major arcs, 2013; arXiv:1205.5252, minor arcs, 2012) completely resolved the ternary (weak) Goldbach conjecture: every odd integer greater than 5 is a sum of three primes. Since the binary conjecture implies but is not implied by the ternary one, this landmark does not settle the binary problem.
 
@@ -39,7 +37,7 @@ Montgomery–Vaughan (Acta Arithmetica 27 (1975), 353–370, DOI 10.4064/aa-27-1
 
 Oliveira e Silva, Herzog, and Pardi (Mathematics of Computation 83 (2014), 2033–2060, DOI 10.1090/S0025-5718-2013-02787-1) verified the conjecture empirically for all even integers up to 4·10^18 with no counterexample; finite verification cannot decide a universal statement over all even integers.
 
-Coverage and status: retrieval combined direct arXiv and Crossref verification of the cited works with web searches for 2024–2026 proof claims. No proof or counterexample of the binary conjecture has been announced or accepted as of August 2026; standard reference summaries of the problem consistently list the strong conjecture as open. Uncertainty: an unnoticed preprint claim could exist, but nothing in the accepted literature resolves it. The surviving open core is the conjecture itself in full generality.
+No proof or counterexample of the binary conjecture has been announced or accepted as of August 2026; standard reference summaries of the problem consistently list the strong conjecture as open. Uncertainty: an unnoticed preprint claim could exist, but nothing in the accepted literature resolves it. The surviving open core is the conjecture itself in full generality.
 
 ## Scientific Significance
 

@@ -28,11 +28,9 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
+The primary source is arXiv:1912.03042. Blanc–Lange–Tan state in Remark 1 that obtaining a quantum analogue of Fact 1.1 — even just non-constructively — is called a major open problem, attributed to Conjecture 4 of Aaronson–Ambainis (2014), folklore since 1999 or earlier; the Aaronson–Ambainis influence conjecture is stated to remain a major open problem in the analysis of Boolean functions. The paper itself contributes Lemma 2.1: the influence conjecture holds for mean functions of randomized query algorithms (some influence at least $\mathrm{Var}/q$), which underlies its constructive classical derandomizations.
 
-Source fidelity verified against the primary source (arXiv:1912.03042 HTML). The candidate's direction (i) is Remark 1 of Blanc–Lange–Tan verbatim: obtaining a quantum analogue of Fact 1.1 — even just non-constructively — is called a major open problem, attributed to Conjecture 4 of Aaronson–Ambainis (2014), folklore since 1999 or earlier; the Aaronson–Ambainis influence conjecture is stated to remain a major open problem in the analysis of Boolean functions. The paper itself contributes Lemma 2.1: the influence conjecture holds for mean functions of randomized query algorithms (some influence at least $\mathrm{Var}/q$), which underlies its constructive classical derandomizations.
-
-Two further directions highlighted by the source paper (arXiv:1912.03042) remain unaddressed in the literature I found: (ii) a single unified constructive algorithm combining the $O(q/\varepsilon)$ query cost and $\mathrm{poly}(N)\cdot2^{O(q/\varepsilon)}$ runtime of Theorem 1, the instance-optimality of Theorem 2, and the online bounds of Theorem 4/Theorem 11 is explicitly left as future work; (iii) the uniform dequantization of Corollary 2 incurs $\mathrm{poly}(2^m)\cdot\mathrm{quasipoly}(n)$ preprocessing in the quantum-space parameter $m$, a stated limitation (the LKM record slightly overstates it as an explicitly flagged open question). Neither affects the identity of the core open problem, which is direction (i).
+Two further directions highlighted by the source paper (arXiv:1912.03042) remain open in the literature discussed here: (ii) a single unified constructive algorithm combining the $O(q/\varepsilon)$ query cost and $\mathrm{poly}(N)\cdot2^{O(q/\varepsilon)}$ runtime of Theorem 1, the instance-optimality of Theorem 2, and the online bounds of Theorem 4/Theorem 11 is explicitly left as future work; (iii) the uniform dequantization of Corollary 2 incurs $\mathrm{poly}(2^m)\cdot\mathrm{quasipoly}(n)$ preprocessing in the quantum-space parameter $m$, a stated limitation. Neither affects the identity of the core open problem, which is direction (i).
 
 Aaronson–Ambainis (Theory of Computing, 2014, DOI 10.4086/toc.2014.v010a006) formulated the simulation conjecture and reduced it (in sufficient form) to the influence conjecture; they proved the conjecture for symmetric functions. Dinur–Friedgut–Kindler–O'Donnell (STOC 2006, DOI 10.1145/1132516.1132580) on Fourier tails of bounded functions yields an $\exp(t)$-query simulation; per the August 2026 literature this remains the best general bound, with all known proofs blocked at $\exp(t)$ by their reliance on hypercontractivity.
 
@@ -44,8 +42,6 @@ The conjecture's downstream stakes rose: Yamakawa–Zhandry (Journal of the ACM,
 
 Most decisive for current status: Blanc–Docter–Strassle–Tan (arXiv:2608.19158, 19 August 2026), by the same group as the source paper, settle the simulation conjecture only for parallel quantum algorithms — every $t$-query $d$-round quantum algorithm is simulated on most inputs with $t^{O(d^2)}$ classical queries — state that the general case for highly adaptive algorithms remains open, propose a new (weaker, still unproven) 'query weights' conjecture that would suffice, and confirm the $\exp(t)$ hypercontractivity barrier for the influence formulation. The arbitrarily adaptive case therefore survives as a precise open core.
 
-Coverage: I verified all referenced works' metadata and key claims against arXiv pages/abstracts and Crossref; Semantic Scholar and OpenAlex citation graphs were unavailable (rate limits), so forward-citation coverage relies on arXiv full-text search for the conjecture's standard name and on the 2026 survey-style introduction of arXiv:2608.19158, which reviews the surrounding literature. Residual uncertainty: an obscure claimed full proof published in a venue not indexed by these searches could have been missed, though it would contradict the August 2026 expert statements above.
-
 ## Scientific Significance
 
 Affected-field significance: `high`.
@@ -54,7 +50,7 @@ A positive resolution would directly establish a polynomial relationship between
 
 ## References
 
-1. Guy Blanc, Jane Lange, Li-Yang Tan, Constructive derandomization of query algorithms, arXiv:1912.03042 (2019), DOI 10.48550/arXiv.1912.03042, https://arxiv.org/abs/1912.03042 (LKM provenance: lkm_open_question gcn_9024a4d1c1134c28)
+1. Guy Blanc, Jane Lange, Li-Yang Tan, Constructive derandomization of query algorithms, arXiv:1912.03042 (2019), DOI 10.48550/arXiv.1912.03042, https://arxiv.org/abs/1912.03042
 2. Scott Aaronson, Andris Ambainis, The need for structure in quantum speedups, Theory of Computing 10(6):133–166 (2014), arXiv:0911.0996, DOI 10.4086/toc.2014.v010a006, https://doi.org/10.4086/toc.2014.v010a006
 3. Robert Beals, Harry Buhrman, Richard Cleve, Michele Mosca, Ronald de Wolf, Quantum lower bounds by polynomials, Journal of the ACM 48(4):778–797 (2001), DOI 10.1145/502090.502097, https://doi.org/10.1145/502090.502097
 4. Noam Nisan, CREW PRAMs and decision trees, Proceedings of the 21st Annual ACM Symposium on Theory of Computing (STOC 1989), pp. 327–335, DOI 10.1145/73007.73038, https://doi.org/10.1145/73007.73038

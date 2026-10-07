@@ -23,9 +23,7 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
-Source fidelity: the candidate accurately paraphrases Wiedemann (2011). The published paper proves that every $v_0\in H(Q)$, $Q=[0,2\pi]^d$, $d\ge2$, has infinitely many global weak solutions with bounded energy, and states verbatim that if the energy is required to be bounded at all times by the initial energy, existence 'is not known for arbitrary initial data (but only for an $L^2$-dense subset)'; it also records the obstruction that producing infinitely many weak solutions for smooth data would contradict local well-posedness and weak-strong uniqueness. The LKM summary's reference to $H(Q)$, the dense-subset limitation, and the convex-integration obstruction were all verified against the primary source; no misreading or conflation with adjacent results was found.
+Wiedemann (2011) establishes the partial results described below. The published paper proves that every $v_0\in H(Q)$, $Q=[0,2\pi]^d$, $d\ge2$, has infinitely many global weak solutions with bounded energy, and states verbatim that if the energy is required to be bounded at all times by the initial energy, existence 'is not known for arbitrary initial data (but only for an $L^2$-dense subset)'; it also records the obstruction that producing infinitely many weak solutions for smooth data would contradict local well-posedness and weak-strong uniqueness.
 
 Székelyhidi–Wiedemann (2012, ARMA) proved Corollary 3: there is an $L^2$-dense set of solenoidal data for each of which there exist infinitely many admissible weak solutions, obtained by generating admissible measure-valued solutions (which exist for all $L^2$ data) with sequences of exact weak solutions. Their introduction states that improving this dense set 'seems to be a very delicate issue' and that any wild datum must be highly irregular for consistency with weak-strong uniqueness — this is exactly the surviving open core.
 
@@ -41,7 +39,7 @@ Most recent direct status statement: Schindler–Wiedemann (arXiv:2601.14813, Ja
 
 Adjacent compressible analogue: Boutros–Markfelder (2026) proved that wild initial data (data with infinitely many global admissible solutions satisfying the local energy inequality) are dense in $L^r$ for the isentropic compressible Euler system, noting that the analogous incompressible statement with the local energy inequality remains open — evidence that the admissible-existence frontier is active but unsettled even at the density level.
 
-Coverage: this audit combined the LKM paper-graph and knowledge-search routes, a full forward-citation sweep of Wiedemann (2011) (all 105 citing works scanned via Semantic Scholar), and inspection of the source and key follow-up PDFs. No work was found that constructs, for all divergence-free $L^2$ periodic data in any dimension $d\ge2$, a global weak solution with $E(t)\le E(0)$ for all $t\ge0$, nor a datum for which none exists. The problem is open as stated; the residual uncertainties concern only very recent or non-English postings not covered by these routes.
+No work was found that constructs, for all divergence-free $L^2$ periodic data in any dimension $d\ge2$, a global weak solution with $E(t)\le E(0)$ for all $t\ge0$, nor a datum for which none exists. The problem is open as stated.
 
 ## Scientific Significance
 

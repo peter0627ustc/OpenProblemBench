@@ -34,9 +34,7 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
-Source fidelity: the candidate record faithfully reflects its source, arXiv:2512.18923 (DeVos, Nurse, Šámal, December 2025). The paper's introduction explicitly states that Bouchet's 6-flow conjecture is unresolved, that it is best possible via a signed Petersen graph, that the best general published bound is the 11-flow of DeVos–Li–Lu–Luo–Zhang–Zhang (2021), and that the paper proves only an 8-flow under the hypothesis of 3-edge-connectivity. No conflation of adjacent results was found; the paraphrase is correct.
+DeVos, Nurse, and Šámal (arXiv:2512.18923, December 2025) provide the source result. The paper's introduction explicitly states that Bouchet's 6-flow conjecture is unresolved, that it is best possible via a signed Petersen graph, that the best general published bound is the 11-flow of DeVos–Li–Lu–Luo–Zhang–Zhang (2021), and that the paper proves only an 8-flow under the hypothesis of 3-edge-connectivity.
 
 Origin: Bouchet (1983) introduced integer flows on bidirected graphs — motivated by the extension of Tutte's flow-colouring duality to general surfaces — conjectured that every flow-admissible signed graph admits a nowhere-zero 6-flow, and proved the conjecture with the constant 216 in place of 6. Seymour's 6-flow theorem (1981) settles the balanced (switching-equivalent to all-positive) case, since it becomes the ordinary 6-flow theorem.
 
@@ -46,7 +44,7 @@ Under connectivity hypotheses: DeVos, Nurse, and Šámal (2023, arXiv:2309.00704
 
 Confirmed special cases of the full 6-flow conclusion: almost balanced signed graphs (frustration number at most two) by Wang, Lu, Zhang, and Zhang (2019); signed graphs with frustration index three by Lu, Luo, and Zhang (2025), who also note that infinitely many such graphs need modulus exactly 6; cyclically 5-edge-connected cubic signed graphs by Nurse (2026, arXiv preprint); series-parallel signed graphs by Kaiser and Rollová (2014); complete and complete bipartite signed graphs by Máčajová and Rollová (2015); and supereulerian signed graphs (spanning even Eulerian subgraph), including those with a balanced Hamiltonian circuit and signed abelian Cayley graphs, by Wen, Sun, and Zhang (2025).
 
-Audit coverage: a semantic search of the LKM literature database (four queries on Bouchet's conjecture and signed-graph flow bounds), the arXiv search interface (two recency-sorted queries on signed-graph nowhere-zero flows, whose newest hits are the January 2026 preprint of Nurse and the December 2025 source paper), Crossref metadata verification of every cited work, and a web search. No resolution of the general conjecture was found; the two most recent papers in the line both treat only restricted classes and frame the general conjecture as open. Independent review (August 2026) re-verified every cited work against arXiv and Crossref, repeated the arXiv recency search, and found only the Chen–Fan alternative proof of the 11-flow theorem as a new data point, so the open outcome stands. Residual uncertainty: a very recent journal-only publication could have escaped this sweep, though the continuing appearance of special-case papers through early 2026 makes a published general resolution unlikely to have been missed.
+No resolution of the general conjecture was found; the two most recent papers in the line both treat only restricted classes and frame the general conjecture as open.
 
 What remains open is precisely the core of the conjecture: whether 6 suffices for every flow-admissible signed graph. Concretely, the acknowledged quantitative gaps are the gap between the general bound of 11 and the conjectured 6, and the gap between the 3-edge-connected bound of 8 and 6 — with no intermediate value (for example, a 7-flow or 6-flow for 3-edge-connected, or a 10-, 9-, or 8-flow in general) currently published.
 

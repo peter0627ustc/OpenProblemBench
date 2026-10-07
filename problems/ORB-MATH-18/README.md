@@ -24,9 +24,7 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
-Source fidelity verified against the primary source: the LKM record faithfully paraphrases Sidiropoulos' FOCS 2013 paper (arXiv:1304.7512, single author; Crossref confirms the author list). Conjectures 1-3, the treewidth-3 remark ('even the case of planar graphs of treewidth 3 remains open'), the dependence on convexity of distance, and the footnote-level extension to simply-connected non-positively curved surfaces all appear verbatim or near-verbatim in the paper; no conflation of adjacent results was found, and the paraphrase needs no correction.
+Sidiropoulos (FOCS 2013; arXiv:1304.7512) gives partial results toward the conjecture. Conjectures 1-3, the treewidth-3 remark ('even the case of planar graphs of treewidth 3 remains open'), the dependence on convexity of distance, and the footnote-level extension to simply-connected non-positively curved surfaces all appear verbatim or near-verbatim in the paper.
 
 Sidiropoulos (FOCS 2013) itself resolved only the non-positively curved case: every non-positively curved planar metric embeds into $L_1$ with distortion bounded by a universal constant $\gamma$. The paper explicitly leaves Conjectures 1-3 open and states that all known topological methods are insufficient even for planar graphs of treewidth 3.
 
@@ -40,7 +38,7 @@ Kawarabayashi and Sidiropoulos (FOCS 2021) proved an $O(\log^3 n)$ flow-cut gap 
 
 Adjacent results that do not resolve the conjecture: Abraham, Filtser, Gupta and Neiman (SIAM J. Comput. 2022) embedded pathwidth-$k$ graphs into $\ell_1$ with distortion $O(\sqrt{k})$; Kumar (arXiv:2007.01280) proved a flow-cut gap of at most 3 for planar demands whose endpoints lie contiguously on a common face; Filtser-Le (FOCS 2022) and Cohen-Addad, Le, Pilipczuk and Pilipczuk (FOCS 2023) constructed stochastic embeddings of planar/minor-free metrics into polylogarithmic-treewidth metrics — a different objective (expected or additive distortion, algorithmic uses) that leaves the worst-case $L_1$ constant-distortion conjecture open.
 
-Coverage assessment: citation chase from the source DOI (Semantic Scholar), citation chase from Chalopin-Chepoi-Naves, DBLP title sweeps for 2022-2025 ('constant distortion', 'minor-free', 'L1-embeddings', 'sparsest cut planar'), and arXiv phrase searches ('planar embedding conjecture', 'GNRS conjecture', 'flow-cut gap planar'). No work resolving or refuting the conjecture was found; the WebSearch tool was nonfunctional in this session and Semantic Scholar was heavily rate-limited, so coverage of very recent (2025-2026) preprints relied on DBLP and arXiv, which were clean. Residual uncertainty is confined to a hypothetical very recent preprint not yet indexed under these phrases; confidence in the open status is high.
+No resolution or refutation of the general conjecture was identified at curation.
 
 The open core is the full conjecture: constant-distortion $L_1$-embeddability of all finite planar graph metrics (equivalently, the $O(1)$ flow-cut gap for planar graphs), with the treewidth-3 planar case as the documented minimal frontier. No finite-size, parameter, or method restriction is warranted, and none is introduced.
 
@@ -52,7 +50,7 @@ A direct resolution changes core knowledge in metric geometry and approximation 
 
 ## References
 
-1. Anastasios Sidiropoulos. Non-positive Curvature and the Planar Embedding Conjecture. FOCS 2013, pp. 177-186. DOI: 10.1109/focs.2013.27; arXiv:1304.7512, https://arxiv.org/abs/1304.7512 (LKM source node gcn_a58a8d5e87284e6d).
+1. Anastasios Sidiropoulos. Non-positive Curvature and the Planar Embedding Conjecture. FOCS 2013, pp. 177-186. DOI: 10.1109/focs.2013.27; arXiv:1304.7512, https://arxiv.org/abs/1304.7512.
 2. Jérémie Chalopin, Victor Chepoi, and Guyslain Naves. Isometric Embedding of Busemann Surfaces into $L_1$. Discrete & Computational Geometry, 2015. DOI: 10.1007/s00454-014-9643-0; arXiv:1308.3181, https://arxiv.org/abs/1308.3181.
 3. Anupam Gupta, Ilan Newman, Yuri Rabinovich, and Alistair Sinclair. Cuts, Trees and $\ell_1$-Embeddings of Graphs. Combinatorica 24(2):233-269, 2004. DOI: 10.1007/s00493-004-0015-x, https://doi.org/10.1007/s00493-004-0015-x.
 4. James R. Lee and Anastasios Sidiropoulos. On the geometry of graphs with a forbidden minor. STOC 2009. DOI: 10.1145/1536414.1536450, https://doi.org/10.1145/1536414.1536450.

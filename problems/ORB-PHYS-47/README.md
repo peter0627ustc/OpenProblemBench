@@ -35,9 +35,7 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
-Source fidelity: the candidate was checked against the full arXiv source of Sen (2017). All three claimed gaps appear verbatim in the paper — the $D>2$ restriction ('For $D\le 2$ we anyway expect infrared divergences ... Therefore we shall not worry about this case'), the role of stub factors $(\lambda_i(y))^{m_i^2}$ in taming the $e^{c\,m}$ growth of the density of intermediate string states, and the 'formal' status of the propagator-to-$t$-integral replacements and their interchanges with loop-momentum integrals, justified only by phase estimates and avoidance of pinch singularities for $u$ in the first quadrant. The LKM paraphrase is faithful; no correction to the formulation was required.
+Sen (2017, arXiv:1610.00443) states the problem. All three claimed gaps appear verbatim in the paper — the $D>2$ restriction ('For $D\le 2$ we anyway expect infrared divergences ... Therefore we shall not worry about this case'), the role of stub factors $(\lambda_i(y))^{m_i^2}$ in taming the $e^{c\,m}$ growth of the density of intermediate string states, and the 'formal' status of the propagator-to-$t$-integral replacements and their interchanges with loop-momentum integrals, justified only by phase estimates and avoidance of pinch singularities for $u$ in the first quadrant.
 
 Direct continuation of the program keeps the assumptions: Pius–Sen (arXiv:1604.01783) proved Cutkosky rules for superstring field theory amplitudes to all orders, and de Lacroix–Erbin–Sen (arXiv:1810.07197) proved analyticity and crossing symmetry to all orders — the latter still 'requires, as usual, explicitly subtracting / regulating the non-analyticities associated with massless particles'. Neither work addresses the $D\le 2$ regime, stub removal, or the formal status of the integral interchanges. Erbin's textbook (arXiv:2301.01686) and the Sen–Zwiebach review (arXiv:2405.19421) cite the equivalence as a consistency pillar for the standard (critical-dimension, stub-based) setting and do not list the three gaps as open problems.
 
@@ -49,9 +47,9 @@ Related negative signal on automaticity of equivalence: Buoninfante (arXiv:2205.
 
 On the stub question: Sen (arXiv:1902.00263) shows that string field theory serves as a world-sheet ultraviolet regulator and that tree-level results are independent of the auxiliary SFT choices; hyperbolic string field theory constructions (referenced in the Sen–Zwiebach review) build vertices with geodesic stubs integrated over. No work found proves convergence of the stub-free sum over intermediate string states at arbitrary loop order, derives the admissible stub choices from first principles, or proves amplitude-level stub independence at loop level.
 
-Coverage and uncertainty: the complete citation lists of arXiv:1610.00443 on INSPIRE (23 records) and Semantic Scholar (19 records, largely overlapping) were inspected, together with Ashoke Sen's full recent arXiv listing and the standard reviews. No later work resolves, refutes, or even partially closes any of the three gaps. Residual uncertainty: a full formalization could in principle exist in a mathematics venue not indexed by either service; no evidence of such a work was found.
+No later work resolves, refutes, or even partially closes any of the three gaps.
 
-Conclusion of the audit: the surviving open core is precisely the removal of the proof's three explicit assumptions while preserving its objective — the all-order equivalence of the two contour prescriptions, and hence the unitarity of the moduli-space $i\varepsilon$ prescription, without dimension, stub, or formality crutches.
+The remaining question is precisely the removal of the proof's three explicit assumptions while preserving its objective — the all-order equivalence of the two contour prescriptions, and hence the unitarity of the moduli-space $i\varepsilon$ prescription, without dimension, stub, or formality crutches.
 
 ## Scientific Significance
 
@@ -61,7 +59,7 @@ Direct impact on the mathematical foundations of string perturbation theory: the
 
 ## References
 
-1. Ashoke Sen, 'Equivalence of Two Contour Prescriptions in Superstring Perturbation Theory', JHEP 04 (2017) 025, DOI: 10.1007/JHEP04(2017)025, arXiv:1610.00443, https://arxiv.org/abs/1610.00443 (source of the LKM open-question node gcn_4fbc91d4ecaf4a01)
+1. Ashoke Sen, 'Equivalence of Two Contour Prescriptions in Superstring Perturbation Theory', JHEP 04 (2017) 025, DOI: 10.1007/JHEP04(2017)025, arXiv:1610.00443, https://arxiv.org/abs/1610.00443
 2. Edward Witten, 'The Feynman $i\varepsilon$ in String Theory', JHEP 04 (2015) 055, DOI: 10.1007/JHEP04(2015)055, arXiv:1307.5124, https://arxiv.org/abs/1307.5124
 3. Roji Pius and Ashoke Sen, 'Cutkosky Rules for Superstring Field Theory', JHEP 10 (2016) 024, DOI: 10.1007/JHEP10(2016)024, arXiv:1604.01783, https://arxiv.org/abs/1604.01783
 4. Corinne de Lacroix, Harold Erbin, and Ashoke Sen, 'Analyticity and Crossing Symmetry of Superstring Loop Amplitudes', JHEP 05 (2019) 139, DOI: 10.1007/JHEP05(2019)139, arXiv:1810.07197, https://arxiv.org/abs/1810.07197

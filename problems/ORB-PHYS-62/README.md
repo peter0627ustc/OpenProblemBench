@@ -29,8 +29,6 @@ Known solving difficulties:
 
 ## Current Progress
 
-- Status: `ready`
-
 Pauling (J. Am. Chem. Soc. 57 (1935) 2680-2684, doi:10.1021/ja01315a102) proposed the estimate; Lieb (Phys. Rev. 162 (1967) 162-172, doi:10.1103/PhysRev.162.162) computed the exact square-lattice value $\frac{3}{2}\log\frac{4}{3}$ per vertex, proving the estimate inexact at fixed degree $d=4$ (gap approximately $0.026$).
 
 For every graph of even degree, $\rho\ge\widehat{\rho}$ (Lieb-Wu, as recorded in arXiv:2509.20671 and arXiv:2409.04989; proved combinatorially by Schrijver, Combinatorica 3 (1983) 375-380, doi:10.1007/BF02579193). Las Vergnas (Combinatorica 10 (1990) 61-65, doi:10.1007/BF02122696) proved $\rho\le\widehat{\rho}+\frac{\log d}{2g}+O(1/n)$ for connected regular multigraphs of girth $g$, so girth growing faster than $\log d$ implies the conjecture. Schrijver's 1983 conjectured upper bound $\mathrm{EO}\le\prod_{v}\mathrm{RT}(d_{v}+1)^{1/(d_{v}+1)}$ in terms of regular-tournament counts remains open and would imply the regular conjecture with gap $O(\log d/d)$.
@@ -43,7 +41,7 @@ Isaev-McKay-Zhang (J. Combin. Theory Ser. B 172 (2025) 263-314, doi:10.1016/j.jc
 
 Bencs-Borbenyi-Csikvari (arXiv:2409.18012) proved convergence of $\frac{1}{|V|}\ln\varepsilon(G)$ along Benjamini-Schramm convergent bounded-degree Eulerian sequences (local weak convergence of rooted neighborhoods) — the fixed-degree regime, which does not address $d\to\infty$.
 
-Open-status check as of 2026-08-30: arXiv:2509.20671 has zero indexed citations (Semantic Scholar); the five citations of doi:10.4171/aihpd/207 concern adjacent topics (arXiv:2409.17893 arborescence extremal problems; arXiv:2309.15473 cumulant expansion; arXiv:2409.18012 Benjamini-Schramm convergence; arXiv:2601.04822 degree-sequence enumeration; the source paper itself); a sweep of arXiv papers mentioning Eulerian orientations through July 2026 (including arXiv:2607.27961 on counting complexity and arXiv:2607.22208 on planar maps) shows none addressing the conjecture.
+No resolution of the conjecture was identified at the August 2026 curation cutoff. Recent work on arborescences, cumulant expansions, graph limits, degree-sequence enumeration, counting complexity, and planar maps addresses related questions.
 
 ## Scientific Significance
 
