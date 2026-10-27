@@ -2,16 +2,21 @@
 
 Problem statements for **OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences**.
 
-OpenProblemBench contains 82 literature-grounded research problems in mathematics and theoretical physics. Each README provides the research background, problem statement, prior progress, scientific significance, and references. These statements support assessments of AI systems on questions extending beyond established knowledge.
+**Version: v0.2.0 · Released: 2026-10-27**
+
+OpenProblemBench contains 77 literature-grounded research problems in mathematics and theoretical physics. Each problem provides research context, a self-contained statement, and references. These statements support assessments of AI systems on research questions extending beyond established knowledge.
 
 ## Contents
 
-| Discipline | Problems | Identifiers |
-|---|---:|---|
-| Mathematics | 46 | ORB-MATH-01 through ORB-MATH-46 |
-| Theoretical physics | 36 | ORB-PHYS-47 through ORB-PHYS-82 |
+| Discipline | Problems |
+|---|---:|
+| Mathematics | 42 |
+| Theoretical physics | 35 |
+| Total | 77 |
 
-Each problem has its own folder under [`problems/`](problems/), containing a single `README.md`. Identifiers match those used in the manuscript. The repository contains problem statements; the descriptions specify the assumptions and requirements against which proposed solutions should be assessed.
+Each problem has its own folder under [`problems/`](problems/), containing a single `README.md`. Existing identifiers are retained to preserve correspondence with earlier versions and the manuscript. Five retired identifiers are omitted and are not reassigned; the numbering therefore has gaps. The descriptions specify the assumptions and requirements against which proposed solutions should be assessed.
+
+Version v0.2.0 refreshes all retained statements and removes five problems. See the [changelog](CHANGELOG.md) for the retired identifiers. Cite or record the dataset version when reporting an evaluation, because statement changes can affect the interpretation of earlier results.
 
 ## Problem index
 
@@ -42,12 +47,10 @@ Each problem has its own folder under [`problems/`](problems/), containing a sin
 | [ORB-MATH-23](problems/ORB-MATH-23/README.md) | Are all star flows multisingular hyperbolic? The full characterization of star flows beyond dimension 3 |
 | [ORB-MATH-24](problems/ORB-MATH-24/README.md) | The Weinstein conjecture for closed contact manifolds of dimension at least five |
 | [ORB-MATH-25](problems/ORB-MATH-25/README.md) | The strong Weinstein conjecture: existence of null-homologous Reeb links on closed contact manifolds |
-| [ORB-MATH-26](problems/ORB-MATH-26/README.md) | One-dimensionality of stable Allen-Cahn solutions with bounded energy density in dimensions 5 through 7 |
 | [ORB-MATH-27](problems/ORB-MATH-27/README.md) | Existence of global energy-admissible weak solutions of the incompressible Euler equations for arbitrary initial data in the energy space |
 | [ORB-MATH-28](problems/ORB-MATH-28/README.md) | The Penrose inequality for general (non-time-symmetric) asymptotically flat initial data sets |
-| [ORB-MATH-29](problems/ORB-MATH-29/README.md) | The Kirchhoff–Hopf problem: does the six-sphere admit a complex structure? |
 | [ORB-MATH-30](problems/ORB-MATH-30/README.md) | Parametrization of the volume conjecture for hyperbolic knots beyond the figure-eight knot |
-| [ORB-MATH-31](problems/ORB-MATH-31/README.md) | Is Axiom A dense in the $C^1$ topology among diffeomorphisms of compact surfaces? (Smale's problem / $C^1$ Palis density conjecture, surface case) |
+| [ORB-MATH-31](problems/ORB-MATH-31/README.md) | Is Axiom A dense in the $C^1$ topology among diffeomorphisms of compact surfaces? (Smale's problem, surface case) |
 | [ORB-MATH-32](problems/ORB-MATH-32/README.md) | Existence of finite projective planes of non-prime-power order (the prime power conjecture) |
 | [ORB-MATH-33](problems/ORB-MATH-33/README.md) | Sawin's coupling question for the entropy approach to Frankl's union-closed sets conjecture |
 | [ORB-MATH-34](problems/ORB-MATH-34/README.md) | Graph-restrictiveness of semiprimitive groups with a regular normal nilpotent subgroup: the exceptional cases where 2 or 3 divides the degree (the Potočnik–Spiga–Verret conjecture) |
@@ -56,13 +59,11 @@ Each problem has its own folder under [`problems/`](problems/), containing a sin
 | [ORB-MATH-37](problems/ORB-MATH-37/README.md) | The strong Atiyah conjecture for groups with bounded torsion |
 | [ORB-MATH-38](problems/ORB-MATH-38/README.md) | Ryser's conjecture: full transversals in Latin squares of odd order |
 | [ORB-MATH-39](problems/ORB-MATH-39/README.md) | Clustered colouring of graphs excluding a fixed minor: the Norin–Scott–Seymour–Wood conjecture $\chi_\star(\mathcal{M}_H)\le 2\,\overline{td}(H)-2$ |
-| [ORB-MATH-40](problems/ORB-MATH-40/README.md) | Seymour's Second Neighborhood Conjecture |
 | [ORB-MATH-41](problems/ORB-MATH-41/README.md) | Bouchet's 6-flow conjecture for flow-admissible signed graphs |
 | [ORB-MATH-42](problems/ORB-MATH-42/README.md) | Tutte's 3-Flow Conjecture |
 | [ORB-MATH-43](problems/ORB-MATH-43/README.md) | Existence of a polynomial pivot rule for the simplex method (the combinatorial core of Smale's Problem 9) |
 | [ORB-MATH-44](problems/ORB-MATH-44/README.md) | The 4/3-Conjecture for the Integrality Gap of the Subtour (Held–Karp) Relaxation of the Metric Traveling Salesman Problem |
 | [ORB-MATH-45](problems/ORB-MATH-45/README.md) | Schalekamp–Williamson–van Zuylen conjecture: is the integrality gap of the subtour LP attained on half-integral vertices? |
-| [ORB-MATH-46](problems/ORB-MATH-46/README.md) | Woodin's HOD Conjecture: can the HOD Hypothesis fail in the presence of large cardinals? |
 | [ORB-PHYS-47](problems/ORB-PHYS-47/README.md) | Rigorous, assumption-free equivalence of the two contour prescriptions in superstring perturbation theory (low spacetime dimensions, stub-free intermediate-state sums, and controlled integral interchanges) |
 | [ORB-PHYS-48](problems/ORB-PHYS-48/README.md) | Coexistence of infinite $+$ and $-$ clusters in the Ising model on the square matching lattice $\mathbb{Z}_*^2$ for all subcritical temperatures |
 | [ORB-PHYS-49](problems/ORB-PHYS-49/README.md) | Symmetry algebra underlying the transfer-matrix degeneracies of the eight-vertex model at elliptic roots of unity |
@@ -71,7 +72,6 @@ Each problem has its own folder under [`problems/`](problems/), containing a sin
 | [ORB-PHYS-52](problems/ORB-PHYS-52/README.md) | Almost-everywhere classical simulation of quantum query algorithms: the quantum analogue of average-case derandomization of query algorithms (Aaronson–Ambainis simulation conjecture) |
 | [ORB-PHYS-53](problems/ORB-PHYS-53/README.md) | Is the quantum capacity of a general quantum channel uncomputable? |
 | [ORB-PHYS-54](problems/ORB-PHYS-54/README.md) | Scheme-independent quark-gluon decomposition of the nucleon mass in QCD and the physical role of the trace anomaly |
-| [ORB-PHYS-55](problems/ORB-PHYS-55/README.md) | Classification of planar stochastic electromagnetic sources whose beams have propagation-invariant degree of polarization |
 | [ORB-PHYS-56](problems/ORB-PHYS-56/README.md) | Exact fixed-magnetization partition functions and Helmholtz fluctuation-induced forces beyond one dimension and beyond the Gaussian fixed point |
 | [ORB-PHYS-57](problems/ORB-PHYS-57/README.md) | Exact critical manifold of the five-probability inhomogeneous bow-tie lattice: full-domain proof and rigorous foundation of the negative-probability balancing construction |
 | [ORB-PHYS-58](problems/ORB-PHYS-58/README.md) | Exact solution and exact critical temperature of the spin-one Ising model on the honeycomb lattice |

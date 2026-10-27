@@ -1,6 +1,6 @@
 # ORB-MATH-32: Existence of finite projective planes of non-prime-power order (the prime power conjecture)
 
-The candidate records the classical prime power conjecture for finite projective planes, acknowledged as an open limitation in Tancer's 2010 paper on non-representability of projective planes by convex sets: projective planes are known to exist for every prime-power order, yet no example of any other order has ever been found. The audit confirms against primary and later sources that the problem is open in full generality: the strongest unconditional results are the Bruck-Ryser-Chowla arithmetic obstructions, the computer-assisted exclusion of order 10, and asymptotic or computational resolutions of the abelian difference-set special case. Whether a projective plane of any non-prime-power order exists - the smallest open case being order 12 - remains unresolved.
+The classical prime power conjecture for finite projective planes is acknowledged as an open limitation in Tancer's 2010 paper on non-representability of projective planes by convex sets: projective planes are known to exist for every prime-power order, yet no example of any other order has ever been found. The problem is open in full generality: the strongest unconditional results are the Bruck-Ryser-Chowla arithmetic obstructions, the computer-assisted exclusion of order 10, and asymptotic or computational resolutions of the abelian difference-set special case. Whether a projective plane of any non-prime-power order exists - the smallest open case being order 12 - remains unresolved.
 
 ## Background
 
@@ -17,38 +17,6 @@ The citing source is Tancer's paper 'Non-representability of finite projective p
 Does there exist a finite projective plane whose order is not a power of a prime? Equivalently, is it true that a finite projective plane of order $n$ exists if and only if $n$ is a prime power - the prime power conjecture, which asserts that the order of every finite projective plane is a prime power?
 
 A complete answer must either (i) exhibit, for some integer $n$ that is not a prime power, an incidence structure of points and lines satisfying the projective-plane axioms (equivalently, a symmetric $2$-$(n^2+n+1, n+1, 1)$ design, or a complete set of $n-1$ mutually orthogonal Latin squares of order $n$), or (ii) prove that no such incidence structure exists for any non-prime-power $n$. The smallest undecided case is $n = 12$; resolving order 12 alone, in either direction, would be major progress but would not by itself settle the general question, since orders 15, 18, 20, 24, 26, 28, and infinitely many others would remain.
-
-The verification contract below evaluates answers to this statement. It does not narrow or redefine the research question.
-
-Known solving difficulties:
-
-- All known construction techniques - Desarguesian finite-field constructions, planar ternary ring coordinates, translation planes, and difference-set or relative-difference-set methods - produce only prime-power orders, so a positive example likely requires an entirely new construction paradigm.
-- A universal nonexistence proof requires necessary conditions strictly stronger than the Bruck-Ryser-Chowla theorem, and no such general condition has been found since 1950 despite sustained effort.
-- Even the single smallest open case, order 12, has a search space vastly exceeding the order-10 computation that took years of specialized computer search; a hypothetical order-12 plane is heavily constrained (its collineation group must be a {2,3}-group) but not excluded.
-- Powerful algebraic tools (character tables, Delsarte schemes, field-descent and multiplier arguments) have settled the abelian difference-set version asymptotically and computationally, but they exploit a regular abelian symmetry that an arbitrary plane need not possess, so they do not extend to the general case.
-- A universal proof must cover arbitrary non-Desarguesian planes, for which coordinates over fields and linear-algebraic invariants do not directly apply.
-
-## Current Progress
-
-Tancer (arXiv:0908.4038; Proc. Amer. Math. Soc. 138 (2010), 3285–3291) discusses the prime power conjecture as a limitation of the representability results. Its preliminaries state verbatim that projective planes exist for prime-power orders and that it is 'a well known open problem to decide whether there are projective planes of other orders'. The question is the classical prime power conjecture, rather than a conjecture originating with Tancer.
-
-Bruck and Ryser (1949) and Chowla and Ryser (1950) established the Bruck-Ryser-Chowla theorem: a projective plane of order $n$ with $n \equiv 1, 2 \pmod 4$ can exist only if $n$ is a sum of two squares. This excludes infinitely many orders (6, 14, 21, 22, 30, 33, ...) but leaves every order $12, 15, 18, 20, 24, 26, 28, ...$ arithmetically admissible, and no stronger general necessary condition has been proven since.
-
-Lam, Thiel, and Swiercz (1989) settled the smallest then-open order by an exhaustive computer search: no projective plane of order 10 exists. Bright, Cheung, Stevens, Kotsireas, and Ganesh (AAAI 2021, arXiv:2012.04715) re-derived this nonexistence with SAT solvers producing third-party-verifiable certificates, also uncovering consistency issues in both earlier searches. This machinery applies to order 10 only; order 12 remains computationally out of reach.
-
-For order 12, the smallest open case, only conditional results exist: Janko and Tran van Trung (1982) proved the full collineation group of any order-12 plane must be a $\{2,3\}$-group, and Akiyama and Suetake (2008) excluded collineation groups of order 8. Mingchun Xu's 2019 IEEE conference paper on a computer search for an order-12 plane states explicitly that whether any projective plane of order 12 exists is still open and that no necessary conditions beyond Schutzenberger's theorem and Bruck-Ryser-Chowla are known. Xu's 2017 preprint arXiv:1707.02208 claims via a bordered-matrix method that the prime power conjecture holds for all $n \le 33$ (which would exclude orders 12, 15, 18, 20, 24, 26, 28), but this is an unrefereed conference-talk preprint whose claim is not accepted anywhere in the literature discussed here and is contradicted by Xu's own 2019 paper; it is not treated as closure.
-
-Matolcsi and Weiner (Journal of Combinatorial Designs, 2018) developed a character-table / non-commutative Delsarte method that yields a short new proof of the nonexistence of a plane of order 6, but the method is explicitly 'non decisive' for orders 10 and 12, and it does not address arbitrary larger non-prime-power orders.
-
-The difference-set (abelian symmetry) special case is largely resolved: Peluse (Mathematische Annalen, 2021) proved that the number of $n \le N$ for which the cyclic group of order $n^2+n+1$ contains a perfect difference set is asymptotically $N/\log N$, an asymptotic prime power conjecture for cyclic planes; Gordon (Journal of Algebraic Combinatorics, 2022) verified the prime power conjecture for abelian planar difference sets up to order $2 \cdot 10^{10}$. These results concern only planes admitting a regular abelian collineation group; an arbitrary projective plane carries no such symmetry, so the general problem is untouched.
-
-The open core is intact and precise: whether any projective plane of non-prime-power order exists, with order 12 (parameters $(157, 13, 1)$) the smallest undecided instance.
-
-## Scientific Significance
-
-Affected-field significance: `high`.
-
-A direct resolution would change core knowledge of finite geometry and combinatorial design theory. A construction of a non-prime-power plane would overturn a century-old conjecture, produce the first projective plane outside the finite-field paradigm, and immediately expand the parameter sets available in coding theory, extremal combinatorics (e.g., rectangle-free grids and intersecting-family constructions), storage-code and network designs, and quantum-information constructions that currently exist only at prime-power orders. A proof of universal nonexistence would provide the first general necessary condition beyond the Bruck-Ryser-Chowla theorem in over seventy years and would settle the notorious order-12 problem. Either way the field's fundamental characterization of which projective planes exist changes directly, not merely incrementally.
 
 ## References
 
